@@ -1,0 +1,16 @@
+h1{text-decoration: none;
+    font-size: 2.7vmax;
+    text-align: center ;
+    color:rgb(0, 0, 0) ;
+}
+
+fieldset{border-radius: 3px;
+    width: 50%;
+    margin: 10px auto;
+    border: 5px solid;
+    margin-top: 50px;
+}
+legend{
+    text-align: center;
+   font-size: x-large;
+  }

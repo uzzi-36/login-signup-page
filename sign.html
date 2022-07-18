@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./words.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <label id="page_id">
+        <h1>"Sign up Page"</h1>
+        <hr>
+    </label>
+    <fieldset id="signin">
+        <legend id="form_title"><b>Sign Up Form </b></legend>
+        <div id="form">
+            <form onsubmit="signup(); return false;">
+                <br>
+                <label for="firstname">FirstName :</label>
+                <br>
+                <input type="text" id="firstname" required placeholder="firstname"><br>
+                <label for="lastname">LastName :</label>
+                <br>
+                <input type="text" id="lastname" required placeholder="lastname"><br>
+
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" required placeholder="Email"><br>
+                <label for="password">Password :</label>
+                <br>
+                <input type="password" id="password" required placeholder="password"><br>
+                <label for="confirmpassword">Confirm Password :</label>
+                <br>
+                <input type="password" id="confirmpassword" required placeholder="confirmpassword"><br>
+                <br><br>
+                <div>
+
+                    <input type="submit" value="Sign Up">
+                    <br>
+                </div>
+            </form>
+        </div>
+        <div id="design">
+
+        </div>
+    </fieldset>
+    <script src="app.js"></script>
+</body>
+
+</html>
